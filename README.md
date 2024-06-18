@@ -9,6 +9,7 @@ hives to run granular.ck in run_arpeggio_granular.ck). To switch chords after cl
 Machines desired to have arpeggios playing and control of granular synthesizer should run run_arpeggio_granular.ck.
 
 2) Granular synthesizer. Found in granular.ck this instrument maps the control of a granular synthesis (grain size, grain randomness, grain length, pitch, etc.)
-to the controls of a grametrak controller. Can be run alone (granular.ck) or receive messages from arpeggio_queen.ck.
+to the controls of a grametrak controller. Can be run alone (granular.ck) or receive messages from arpeggio_queen.ck and run simultaneously with
+arpeggios (run_arpeggio_granular.ck) .
 
-3) Twinkles. A nice bell/dreamy like instrument ran by twinkles.ck and chords.ck. Chords changed by arpeggio_queen.ck.
+4) Twinkles. A nice bell/dreamy like instrument ran by twinkles.ck and chords.ck. Chords changed by arpeggio_queen.ck.
